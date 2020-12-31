@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
+require("dotenv").config();
 
 app.get('/', (req, res) => {
-    res.send("Home route is ready...")
+    res.send(process.env.SESSION_SECRET);
+
 })
 
 port = process.env.PORT || 5000;
