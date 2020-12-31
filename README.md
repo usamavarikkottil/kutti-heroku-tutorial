@@ -1,7 +1,7 @@
 ### Setup
 ```bash
 git clone https://github.com/usamavarikkottil/kutti-heroku-tutorial.git
-cd kutti-tutorial
+cd kutti-heroku-tutorial
 npm install
 ```
 

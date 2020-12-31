@@ -4,7 +4,6 @@ require("dotenv").config();
 
 app.get('/', (req, res) => {
     res.send(process.env.SESSION_SECRET);
-
 })
 
 port = process.env.PORT || 5000;
